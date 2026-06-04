@@ -1,4 +1,4 @@
-﻿:root {
+:root {
             /* Sleek Obsidian Dark Theme Palette */
             --bg-dark: #060609;
             --bg-card: rgba(18, 18, 26, 0.65);
@@ -236,7 +236,7 @@
             text-decoration: none;
         }
 
-        .logo i {
+        .logo i, .logo svg {
             background: linear-gradient(135deg, #ff8c00 30%, #39ff14 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -342,7 +342,7 @@
             animation: pulse-glow 2s infinite;
         }
 
-        .hero-badge i {
+        .hero-badge i, .hero-badge svg {
             color: var(--accent-green);
         }
 
@@ -410,11 +410,11 @@
             box-shadow: 0 15px 30px var(--primary-glow);
         }
 
-        .btn-primary i {
+        .btn-primary i, .btn-primary svg {
             transition: var(--transition-smooth);
         }
 
-        .btn-primary:hover i {
+        .btn-primary:hover i, .btn-primary:hover svg {
             transform: translateX(4px);
         }
 
@@ -539,7 +539,7 @@
             animation: float-badge-2 4.5s ease-in-out infinite alternate;
         }
 
-        .floating-badge i {
+        .floating-badge i, .floating-badge svg {
             font-size: 24px;
         }
 
@@ -666,7 +666,7 @@
             gap: 8px;
         }
 
-        .batter-btn i {
+        .batter-btn i, .batter-btn svg {
             font-size: 18px;
         }
 
@@ -1213,7 +1213,7 @@
             gap: 12px;
         }
 
-        .pricing-features li i {
+        .pricing-features li i, .pricing-features li svg {
             color: var(--primary-light);
             font-size: 16px;
         }
@@ -1222,7 +1222,7 @@
             color: rgba(255, 255, 255, 0.35);
         }
 
-        .pricing-features li.disabled i {
+        .pricing-features li.disabled i, .pricing-features li.disabled svg {
             color: rgba(255, 255, 255, 0.2);
         }
 
@@ -1324,12 +1324,12 @@
             padding-bottom: 24px;
         }
 
-        .faq-question i {
+        .faq-question i, .faq-question svg {
             transition: var(--transition-smooth);
             color: var(--text-muted);
         }
 
-        .faq-item.active .faq-question i {
+        .faq-item.active .faq-question i, .faq-item.active .faq-question svg {
             transform: rotate(180deg);
             color: var(--primary);
         }
